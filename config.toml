@@ -18,7 +18,7 @@ site_title = "sooki"
 # Social media links
 social_links = [
     { name = "scholar", url = "https://scholar.google.com/citations?user=pHUa0aQAAAAJ&hl=en&authuser=2" },
-    { name = "github", url = "https://github.com/0xsooki" },
+    { name = "github", url = "https://github.com/bencesookitoth" },
 ]
 
 # Last update date

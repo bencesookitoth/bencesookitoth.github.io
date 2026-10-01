@@ -9,7 +9,7 @@ MSc @ [Aarhus University](https://cs.au.dk/research/cryptography-and-cyber-secur
 
 * [scholar](https://scholar.google.com/citations?user=pHUa0aQAAAAJ&hl=en&authuser=2)
 * [linkedin](https://www.linkedin.com/in/stbence/)
-* [github](https://github.com/0xSooki)
+* [github](https://github.com/bencesookitoth)
 
 ## NEWS
 
@@ -89,14 +89,14 @@ June 2022 – Oct 2022
 
 ### - Cryptography
 
-* **[crypto-rs](https://github.com/0xSooki/crypto-rs)**: dependency-free cryptographic primitives in Rust, built from scratch
-* **[stark-rs](https://github.com/0xSooki/stark-rs)**: in-progress, dependency-free implementation of a STARK proof system in Rust, built from scratch
+* **[crypto-rs](https://github.com/bencesookitoth/crypto-rs)**: dependency-free cryptographic primitives in Rust, built from scratch
+* **[stark-rs](https://github.com/bencesookitoth/stark-rs)**: in-progress, dependency-free implementation of a STARK proof system in Rust, built from scratch
 * **[Bribers, Bribers on The Chain, Is Resisting All in Vain?](https://eprint.iacr.org/2025/1719)**: trustless consensus manipulation through bribing contracts, paper for [FC'26](https://fc26.ifca.ai/)
 
 ### - Quantum Computing
 
 * Achieved 11th place during [unitaryHACK 2025](https://unitaryhack.dev/hackers/0xsooki/) by contributing to [ldpc](https://github.com/quantumgizmos/ldpc), [rustworkx](https://github.com/Qiskit/rustworkx), and [quizx](https://github.com/zxcalc/quizx)
-* **[Permanent boost](https://github.com/0xSooki/permanent-boost)**: calculates the permanent function about 100% faster than previous state of the art implementations
-* **[QCS](https://github.com/0xSooki/qcs)**: quantum circuit simulator written in C++
-* **[QCBM](https://github.com/0xSooki/qcbm)**: implementation of the Differentiable learning of quantum circuit Born machines paper
-* **[Steane](https://github.com/0xSooki/steane)**: quantum error correction using code concatenation and the Steane code
+* **[Permanent boost](https://github.com/bencesookitoth/permanent-boost)**: calculates the permanent function about 100% faster than previous state of the art implementations
+* **[QCS](https://github.com/bencesookitoth/qcs)**: quantum circuit simulator written in C++
+* **[QCBM](https://github.com/bencesookitoth/qcbm)**: implementation of the Differentiable learning of quantum circuit Born machines paper
+* **[Steane](https://github.com/bencesookitoth/steane)**: quantum error correction using code concatenation and the Steane code
