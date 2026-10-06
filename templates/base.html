@@ -41,7 +41,11 @@
   <meta name="keywords" content="Bence Soóki-Tóth, Bence Sooki-Toth, Bence Soóki Tóth, Bence Sooki Toth, Bence Sookitoth, cryptography, zero-knowledge proofs, ZK, STARK, formal verification, quantum computing, blockchain, Rust, researcher">
   <link rel="canonical" href="{{ canonical_url }}">
     
-    {% set og_image = get_url(path="og-image.png") %}
+    {% set photo = get_url(path="Bence_Sooki_Toth_480.jpeg") %}
+
+    <!-- Preferred search result thumbnail -->
+    <meta name="robots" content="max-image-preview:large">
+    <meta name="thumbnail" content="{{ photo }}">
 
     <!-- Open Graph -->
     <meta property="og:type" content="website">
@@ -50,20 +54,20 @@
     <meta property="og:description" content="{{ page_description }}">
     <meta property="og:site_name" content="Bence Soóki-Tóth">
     <meta property="og:locale" content="en_US">
-    <meta property="og:image" content="{{ og_image }}">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:alt" content="Bence Soóki-Tóth — cryptoeconomics, proof systems, cryptography, zero-knowledge, game theory">
+    <meta property="og:image" content="{{ photo }}">
+    <meta property="og:image:width" content="1254">
+    <meta property="og:image:height" content="1254">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:alt" content="Bence Soóki-Tóth">
 
     <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:card" content="summary">
     <meta name="twitter:url" content="{{ canonical_url }}">
     <meta name="twitter:title" content="{{ page_title }}">
     <meta name="twitter:description" content="{{ page_description }}">
     <meta name="twitter:creator" content="@bencesookitoth">
-    <meta name="twitter:image" content="{{ og_image }}">
-    <meta name="twitter:image:alt" content="Bence Soóki-Tóth — cryptoeconomics, proof systems, cryptography, zero-knowledge, game theory">
+    <meta name="twitter:image" content="{{ photo }}">
+    <meta name="twitter:image:alt" content="Bence Soóki-Tóth">
     
     <!-- Structured Data -->
     <script type="application/ld+json">
@@ -71,12 +75,28 @@
       "@context": "https://schema.org",
       "@graph": [
         {
+          "@type": "ProfilePage",
+          "@id": "{{ config.base_url }}#profilepage",
+          "url": "{{ config.base_url }}",
+          "name": "Bence Soóki-Tóth",
+          "mainEntity": { "@id": "{{ config.base_url }}#person" },
+          "primaryImageOfPage": { "@id": "{{ config.base_url }}#photo" }
+        },
+        {
           "@type": "Person",
           "@id": "{{ config.base_url }}#person",
           "name": "Bence Soóki-Tóth",
           "alternateName": ["Bence Sooki-Toth", "Bence Soóki Tóth", "Bence Sooki Toth", "Bence Sookitoth"],
           "url": "{{ config.base_url }}",
-          "image": "{{ og_image }}",
+          "image": {
+            "@type": "ImageObject",
+            "@id": "{{ config.base_url }}#photo",
+            "url": "{{ photo }}",
+            "contentUrl": "{{ photo }}",
+            "width": 1254,
+            "height": 1254,
+            "caption": "Bence Soóki-Tóth"
+          },
           "description": {{ page_description | json_encode | safe }},
           "sameAs": [
             "https://github.com/bencesookitoth",
