@@ -3,6 +3,9 @@ title = "Bence Soóki-Tóth"
 description = "MSc student at Aarhus University and researcher at Eötvös Loránd University, working at the intersection of cryptography and game theory."
 +++
 
+<div class="intro">
+<div class="intro-text">
+
 # Bence Soóki-Tóth
 
 MSc @ [Aarhus University](https://cs.au.dk/research/cryptography-and-cyber-security)
@@ -10,6 +13,10 @@ MSc @ [Aarhus University](https://cs.au.dk/research/cryptography-and-cyber-secur
 * [scholar](https://scholar.google.com/citations?user=pHUa0aQAAAAJ&hl=en&authuser=2)
 * [linkedin](https://www.linkedin.com/in/stbence/)
 * [github](https://github.com/bencesookitoth)
+
+</div>
+<img class="intro-photo" src="/Bence_Sooki_Toth_480.jpeg" alt="Bence Soóki-Tóth" width="160" height="160">
+</div>
 
 ## NEWS
 

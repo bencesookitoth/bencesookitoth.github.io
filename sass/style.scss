@@ -122,6 +122,33 @@ main {
     margin-bottom: var(--spacing-xxl);
 }
 
+.intro {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: var(--spacing-lg);
+}
+
+.intro-text {
+    min-width: 0;
+}
+
+.intro-photo {
+    flex-shrink: 0;
+    width: 210px;
+    height: 210px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+@media (max-width: 800px) {
+    .intro-photo {
+        width: 160px;
+        height: 160px;
+        margin-top: 2.5rem;
+    }
+}
+
 /* Typography */
 h1 {
     font-size: 2rem;
@@ -318,6 +345,29 @@ footer {
     
     h1 {
         font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .intro {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .intro-text {
+        display: contents;
+    }
+
+    .intro h1,
+    .intro-photo {
+        order: -1;
+    }
+
+    .intro-photo {
+        width: 210px;
+        height: 210px;
+        margin-top: 0;
+        margin-bottom: var(--spacing-lg);
     }
 }
 
