@@ -172,8 +172,10 @@
     }
     </script>
     
-    <!-- Favicon -->
+    <!-- Favicon (sizes are multiples of 48px, as Google Search requires) -->
+    <link rel="icon" href="{{ get_url(path="favicon.ico") }}" sizes="16x16 32x32 48x48">
     <link rel="icon" type="image/svg+xml" href="{{ get_url(path="favicon.svg") }}">
+    <link rel="icon" type="image/png" sizes="192x192" href="{{ get_url(path="favicon-192x192.png") }}">
     
     <!-- Font (self-hosted, see @font-face in style.css) -->
     <link rel="preload" href="{{ get_url(path="fonts/dm-mono-latin.woff2") }}" as="font" type="font/woff2" crossorigin>
