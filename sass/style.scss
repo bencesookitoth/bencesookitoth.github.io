@@ -236,6 +236,11 @@ ul ul li::before {
     content: "◦";
 }
 
+/* Extra space between items that carry a nested list (e.g. talk + venues) */
+li:has(> ul) {
+    margin-bottom: var(--spacing-md);
+}
+
 /* Special styling for project sections */
 h3 + ul {
     margin-top: var(--spacing-sm);

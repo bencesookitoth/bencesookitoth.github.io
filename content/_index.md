@@ -8,7 +8,7 @@ description = "MSc student at Aarhus University and researcher at Eötvös Lorá
 
 # Bence Soóki-Tóth
 
-MSc @ [Aarhus University](https://cs.au.dk/research/cryptography-and-cyber-security)
+MSc @ [Aarhus University](https://cs.au.dk/)
 
 * [scholar](https://scholar.google.com/citations?user=pHUa0aQAAAAJ&hl=en&authuser=2)
 * [linkedin](https://www.linkedin.com/in/stbence/)
@@ -20,7 +20,7 @@ MSc @ [Aarhus University](https://cs.au.dk/research/cryptography-and-cyber-secur
 
 ## NEWS
 
-* *20 Oct 2026*: My presentation "Private Delegation of (Non-)Membership Proof Updates in Cryptographic Accumulators" has accepted to [Nordicrypt 2026](https://www.nordicrypt.com/nordicrypt-fall-2026).
+* *20 Oct 2026*: My presentation "Private Delegation of (Non-)Membership Proof Updates in Cryptographic Accumulators" has been accepted at [Nordicrypt 2026](https://www.nordicrypt.com/nordicrypt-fall-2026).
 * *28 Apr 2026*: Our paper, "Private Delegation of (Non-)Membership Proof Updates in Cryptographic Accumulators" is now available on [eprint](https://eprint.iacr.org/2026/832).
 * *14 Apr 2026*: My presentation about trustless consensus manipulation have been accepted to [BSides Aarhus 2026](https://bsidesaarhus.dk/).
 * *12 Jan 2026*: Our paper on trustless consensus manipulation through bribing contracts appeared in the [FC'26 preproceedings](https://fc26.ifca.ai/preproceedings/95.pdf).
@@ -41,8 +41,12 @@ MSc @ [Aarhus University](https://cs.au.dk/research/cryptography-and-cyber-secur
 
 ## CONFERENCES, SEMINARS & INVITED TALKS
 
-* **[Bribers, Bribers on The Chain, Is Resisting All in Vain? Trustless Consensus Manipulation Through Bribing Contracts](https://fc26.ifca.ai/preproceedings/95.pdf)**  
-  *[BSides Aarhus 2026](https://bsidesaarhus.dk/) (June 2026)* [slides](/Bence_Sooki_Toth_bsides_consensus_manipulation.pdf) · *Aarhus Crypto Seminar (March 2026)* [slides](/Bribers_AU_Crypto_Seminar.pdf) · *Financial Cryptography and Data Security (FC'26)* [slides](/Bribers_FC.pdf)
+* **Bribers, Bribers on The Chain, Is Resisting All in Vain? Trustless Consensus Manipulation Through Bribing Contracts**
+  * *[BSides Aarhus 2026](https://bsidesaarhus.dk/) (June 2026)* · [slides](/Bence_Sooki_Toth_bsides_consensus_manipulation.pdf)
+  * *Aarhus Crypto Seminar (March 2026)* · [slides](/Bribers_AU_Crypto_Seminar.pdf)
+  * *Financial Cryptography and Data Security (FC'26)* · [slides](/Bribers_FC.pdf)
+* **Private Delegation of (Non-)Membership Proof Updates in Cryptographic Accumulators**
+  * *[Nordicrypt 2026](https://www.nordicrypt.com/nordicrypt-fall-2026/) (Oct 2026)* · slides
 
 ## RESEARCH EXPERIENCE
 
@@ -51,7 +55,7 @@ MSc @ [Aarhus University](https://cs.au.dk/research/cryptography-and-cyber-secur
 **[Eötvös Loránd University](https://www.elte.hu/en/)** · Budapest, Hungary  
 May 2025 – July 2025
 
-* Developed the encryptor module for QCIHungary, the Hungarian national contribution to the EU's EuroQCI quantum communication infrastructure (consortium: Pro-M, BME, ELTE, HUN-REN Wigner).
+* Developed the encryptor module for QCIHungary, the Hungarian national contribution to the EU's EuroQCI quantum communication infrastructure.
 * Implemented encryption endpoints and caching for fault-tolerant recomputation, reducing restart overhead.
 
 ### <span class="job-title-underline">Student Research Fellow</span>
@@ -59,7 +63,8 @@ May 2025 – July 2025
 **[ELTE-OTP Cybersecurity Industrial Laboratory](https://otpsecuritylab.inf.elte.hu/en)** · Budapest, Hungary  
 Feb 2025 – Apr 2025
 
-* Analyzed DLT-based banking use cases: interbank settlement, crypto-asset reserves, and customer crypto services.
+* One of 8 students selected for a research fellowship on problems proposed by OTP Bank.
+* Analyzed the Hungarian DLT-based real estate infrastructure.
 
 ## TEACHING & ACADEMIC SERVICE
 
@@ -68,7 +73,7 @@ Feb 2025 – Apr 2025
 **[Aarhus University](https://ece.au.dk/en)** · Aarhus, Denmark  
 Aug 2026 – Dec 2026
 
-* Teaching assistant for Research Methodology in Electrical and Computer Engineering.
+* Teaching assistant for Software Security, and Research Methodology in Electrical and Computer Engineering.
 
 ### <span class="job-title-underline">Student Mentor</span>
 
@@ -97,8 +102,8 @@ June 2022 – Oct 2022
 
 ### - Cryptography
 
-* **[crypto-rs](https://github.com/bencesookitoth/crypto-rs)**: dependency-free cryptographic primitives in Rust, built from scratch
-* **[stark-rs](https://github.com/bencesookitoth/stark-rs)**: in-progress, dependency-free implementation of a STARK proof system in Rust, built from scratch
+* **[crypto](https://github.com/bencesookitoth/crypto)**: dependency-free cryptographic primitives in Rust, built from scratch
+* **[stark](https://github.com/bencesookitoth/stark)**: in-progress, dependency-free implementation of a STARK proof system in Rust, built from scratch
 * **[Bribers, Bribers on The Chain, Is Resisting All in Vain?](https://eprint.iacr.org/2025/1719)**: trustless consensus manipulation through bribing contracts, paper for [FC'26](https://fc26.ifca.ai/)
 
 ### - Quantum Computing
