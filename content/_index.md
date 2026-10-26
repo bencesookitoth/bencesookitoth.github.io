@@ -20,6 +20,7 @@ MSc @ [Aarhus University](https://cs.au.dk/research/cryptography-and-cyber-secur
 
 ## NEWS
 
+* *20 Oct 2026*: My presentation "Private Delegation of (Non-)Membership Proof Updates in Cryptographic Accumulators" has accepted to [Nordicrypt 2026](https://www.nordicrypt.com/nordicrypt-fall-2026).
 * *28 Apr 2026*: Our paper, "Private Delegation of (Non-)Membership Proof Updates in Cryptographic Accumulators" is now available on [eprint](https://eprint.iacr.org/2026/832).
 * *14 Apr 2026*: My presentation about trustless consensus manipulation have been accepted to [BSides Aarhus 2026](https://bsidesaarhus.dk/).
 * *12 Jan 2026*: Our paper on trustless consensus manipulation through bribing contracts appeared in the [FC'26 preproceedings](https://fc26.ifca.ai/preproceedings/95.pdf).
