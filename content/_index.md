@@ -18,6 +18,8 @@ MSc @ [Aarhus University](https://cs.au.dk/)
 <img class="intro-photo" src="/Bence_Sooki_Toth_480.jpeg" alt="Bence Soóki-Tóth" width="160" height="160">
 </div>
 
+I am looking for research internships for the Summer of 2027! If you have any open positions, please take a look at my [CV](/Bence_Sooki_Toth_CV.pdf). If you feel that my profile fits your vacancy, please feel free to reach out!
+
 ## NEWS
 
 * *20 Oct 2026*: My presentation "Private Delegation of (Non-)Membership Proof Updates in Cryptographic Accumulators" has been accepted at [Nordicrypt 2026](https://www.nordicrypt.com/nordicrypt-fall-2026).
@@ -113,3 +115,7 @@ June 2022 – Oct 2022
 * **[QCS](https://github.com/bencesookitoth/qcs)**: quantum circuit simulator written in C++
 * **[QCBM](https://github.com/bencesookitoth/qcbm)**: implementation of the Differentiable learning of quantum circuit Born machines paper
 * **[Steane](https://github.com/bencesookitoth/steane)**: quantum error correction using code concatenation and the Steane code
+
+## MISCELLANEOUS
+
+* Erdős number: [4](https://www.csauthors.net/distance/paul-erdos/bence-sooki-toth)
